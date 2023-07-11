@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000
 
 // greeting api
 app.get('/', (req, res) => {
-  res.send('Hello Fellows! 👋')
+  res.send("<h1 style='text-align: center; font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: cornflowerblue; margin-top: 10%;'>"+ "Hello Fellows! 👋" +"</h1>")
 })
 
 // get username api
